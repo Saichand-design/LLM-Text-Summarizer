@@ -1,0 +1,20 @@
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Summarization Tool</title>
+    </head>
+    <body> style = "font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px;"
+        <h1>Summarization Tool</h1>
+        <form action="/predict" method="post">
+            <label> provide text to summarize:</label><br>
+            <input type = "value" name = "Name" step = "any" required> <br><br>
+
+            <input type="submit" value="Summarize">
+        </form>
+
+        <h2 style = "color : green ;"> {{ output_text }}</h2>
+        
+
+    </body>
+    </html>
+    
