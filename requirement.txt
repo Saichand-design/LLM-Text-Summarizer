@@ -1,0 +1,6 @@
+LangChain
+langchain_ollama.llms
+OllamaLLM
+python
+streamlit
+pypdf
